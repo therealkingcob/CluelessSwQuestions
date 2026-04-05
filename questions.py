@@ -1,5 +1,6 @@
 Q1. 
 
+#Counts the longest streak in the array that matches target
 def count_streak(arr, target):
     count = 0
     max_count = 0
@@ -14,7 +15,7 @@ def count_streak(arr, target):
     return max_count
 
 Q2. 
-
+#Counts the longest strictly increasing streak in the array
 def longest_increasing_streak(arr):
     if not arr:
         return 0
@@ -36,6 +37,7 @@ def longest_increasing_streak(arr):
 
 Q3. 
 
+#Flywheel class, problem is that 1. it never spins
 class Flywheel:
     velocityPID = PID(0.03, 0.0003, 0.0001)
     velocityFFm = 0.00124059 * 20 / 16
