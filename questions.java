@@ -11,7 +11,9 @@ Q1.
     return maxCount;
 }
 
-Q2. 
+Q2. Whats the difference between Math.atan2 and Math.atan in java?
+
+Q3. 
 
 int longestIncreasingStreak(int[] arr) {
     if (arr.length == 0) return 0;
@@ -34,7 +36,7 @@ int longestIncreasingStreak(int[] arr) {
     return maxCount;
 }
 
-Q3. 
+Q4. 
 
 public class Flywheel {
     private final Robot robot;
@@ -106,3 +108,22 @@ public class Flywheel {
   
     public boolean atVel(double thresh) { return Math.abs(targetVelocity - filteredVelocity) >  = thresh; }
 }
+
+
+Q5. 
+
+  public class Localizer {
+  private double val1;
+  private double val2;
+  public double val3;
+
+  protected void update() {
+    ...
+  }
+}
+
+public class MergeLocalizer extends Localizer {
+  ...
+}
+
+What values and methods from Localizer can be directly accessed by MergeLocalizer? What type of method will allow you to use the values & methods that aren't directly accessible?
