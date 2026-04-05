@@ -1,4 +1,5 @@
 Q1. 
+//Counts the longest streak in the array that matches target
 
   int countStreak(int[] arr, int target) {
     int count = 0, maxCount = 0;
@@ -14,7 +15,7 @@ Q1.
 Q2. Whats the difference between Math.atan2 and Math.atan in java?
 
 Q3. 
-
+//count the longest strictly increasing streak in the array
 int longestIncreasingStreak(int[] arr) {
     if (arr.length == 0) return 0;
 
@@ -37,7 +38,7 @@ int longestIncreasingStreak(int[] arr) {
 }
 
 Q4. 
-
+//main problem is that the flywheel never spins even when target velocity is increased
 public class Flywheel {
     private final Robot robot;
     public final CachedMotor flywheel;
