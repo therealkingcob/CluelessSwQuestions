@@ -37,7 +37,7 @@ def longest_increasing_streak(arr):
 
 Q3. 
 
-#Flywheel class, problem is that 1. it never spins
+#Flywheel class, problem is that 1. it never spins even when targetVelocity is set to a positive valid number
 class Flywheel:
     velocityPID = PID(0.03, 0.0003, 0.0001)
     velocityFFm = 0.00124059 * 20 / 16
