@@ -39,6 +39,7 @@ int longestIncreasingStreak(int[] arr) {
 
 Q4. 
 //main problem is that the flywheel never spins even when target velocity is increased
+//#Assume that all methods are valid including all of the pid methods & the update loop is called around 50 times per second
 public class Flywheel {
     private final Robot robot;
     public final CachedMotor flywheel;
